@@ -5,6 +5,11 @@ ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
+# Validate upload image
+gem 'active_storage_validations', '~> 0.9.0'
+# Resize upload image
+gem 'image_processing', '~> 1.11'
+gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 # Secure hash algorithm
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 # Faker
